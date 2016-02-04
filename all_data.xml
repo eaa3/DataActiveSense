@@ -387,6 +387,34 @@
       <extrinsic m11="-0.0176192" m12="-0.0794977" m13="0.996679" m21="0.999819" m22="0.00569355" m23="0.0181289" m31="-0.00711584" m32="0.996819" m33="0.079383" v1="0.0789852" v2="-0.0427839" v3="0.153135"></extrinsic>
       <intrinsic cx="324.839" cy="249.443" f="6" fx="574.336" fy="572.443" h="480" k1="-0.032945" k2="0.0323252" k3="0" p1="0.00173748" p2="0.00138023" w="640"></intrinsic>
     </item>
+
     <item data_index="0" handler="ContactModel+ActiveSenseGraspDataContactModel" label="model" model=".model" prefix="-item-model-1"></item>
+    
+    <item data_index="0" handler="ContactModel+ActiveSenseGraspDataContactModel" label="cm-bowllarge-pinchsupp-tactile" model=".model" prefix="-item-cm-bowllarge-pinchsupp-tactile-1"></item>
+    <item data_index="0" handler="ContactModel+ActiveSenseGraspDataContactModel" label="cm-mug2-handlepinch-tactile" model=".model" prefix="-item-cm-mug2-handlepinch-tactile-1"></item>
+    <item data_index="0" handler="ContactModel+ActiveSenseGraspDataContactModel" label="cm-soupbox-power-tactile" model=".model" prefix="-item-cm-soupbox-power-tactile-1"></item>
+    <item data_index="0" handler="ContactModel+ActiveSenseGraspDataContactModel" label="cm-vitamintube-pinch-tactile" model=".model" prefix="-item-cm-vitamintube-pinch-tactile-1"></item>
+    <item data_index="0" handler="ContactModel+ActiveSenseGraspDataContactModel" label="cm-vitamintube-pinch-tactile2" model=".model" prefix="-item-cm-vitamintube-pinch-tactile2-1"></item>
+    <item handler="Trajectory+ActiveSenseGraspDataTrajectory" label="soupbox-power-tactile" path_position="1" prefix="-item-soupbox-power-tactile-1" waypoint=".wp">
+      <contact path_interpol="1" path_waypoint="18446744073709551615"></contact>
+    </item>
+    <item handler="Trajectory+ActiveSenseGraspDataTrajectory" label="bowllarge-pinchsupp-tactile" path_position="1" prefix="-item-bowllarge-pinchsupp-tactile-1" waypoint=".wp">
+      <contact path_interpol="1" path_waypoint="18446744073709551615"></contact>
+    </item>
+    <item handler="Trajectory+ActiveSenseGraspDataTrajectory" label="vitamintube-handlepinch-tactile" path_position="1" prefix="-item-vitamintube-handlepinch-tactile-1" waypoint=".wp">
+      <contact path_interpol="1" path_waypoint="18446744073709551615"></contact>
+    </item>
+     <item handler="Trajectory+ActiveSenseGraspDataTrajectory" label="vitamintube-pinch-tactile" path_position="1" prefix="-item-vitamintube-pinch-tactile-1" waypoint=".wp">
+      <contact path_interpol="1" path_waypoint="18446744073709551615"></contact>
+    </item>
+    <item cloud=".pcd" handler="PointsCurv+PointsCurv" label="soupbox-curv-all_views" prefix="-item-soupbox-curv-all_views-1" time_stamp="0">
+      <config dim="0" m11="1" m12="0" m13="0" m21="0" m22="1" m23="0" m31="0" m32="0" m33="1" v1="0" v2="0" v3="0"></config>
+      <model rand_ang="100">
+        <curv_std_dev_fac v1="5" v2="5" v3="1"></curv_std_dev_fac>
+      </model>
+      <query>
+        <pose_std_dev ang="200" lin="0.005"></pose_std_dev>
+      </query>
+    </item>
   </data>
 </grasp>
