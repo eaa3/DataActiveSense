@@ -215,25 +215,25 @@
     <item handler="Trajectory+ActiveSenseGraspDataTrajectory" label="bowllarge-pinchsupp-tactitle2" path_position="1" prefix="-item-bowllarge-pinchsupp-tactitle2-1" waypoint=".wp">
       <contact path_interpol="1" path_waypoint="18446744073709551615"></contact>
     </item>
-    <item data_index="0" handler="ContactModel+ActiveSenseGraspDataContactModel" label="cm-bowllarge-pinchsupp-tactile" model=".model" prefix="-item-cm-bowllarge-pinchsupp-tactile-1"></item>
-    <item data_index="0" handler="ContactModel+ActiveSenseGraspDataContactModel" label="cm-bowllarge-pinchsupp-tactile2" model=".model" prefix="-item-cm-bowllarge-pinchsupp-tactile2-1"></item>
-    <item data_index="0" handler="ContactModel+ActiveSenseGraspDataContactModel" label="cm-mug2-handlepinch-tactile" model=".model" prefix="-item-cm-mug2-handlepinch-tactile-1"></item>
-    <item data_index="0" handler="ContactModel+ActiveSenseGraspDataContactModel" label="cm-soupbox-power-tactile" model=".model" prefix="-item-cm-soupbox-power-tactile-1"></item>
-    <item data_index="0" handler="ContactModel+ActiveSenseGraspDataContactModel" label="cm-vitamintube-pinch-tactile" model=".model" prefix="-item-cm-vitamintube-pinch-tactile-1"></item>
-    <item data_index="0" handler="ContactModel+ActiveSenseGraspDataContactModel" label="cm-vitamintube-pinch-tactile2" model=".model" prefix="-item-cm-vitamintube-pinch-tactile2-1"></item>
+    <item data_index="0" handler="ContactModel+ContactModelDemoDR55" label="cm-bowllarge-pinchsupp-tactile" model=".model" prefix="-item-cm-bowllarge-pinchsupp-tactile-1"></item>
+    <item data_index="0" handler="ContactModel+ContactModelDemoDR55" label="cm-bowllarge-pinchsupp-tactile2" model=".model" prefix="-item-cm-bowllarge-pinchsupp-tactile2-1"></item>
+    <item data_index="0" handler="ContactModel+ContactModelDemoDR55" label="cm-mug2-handlepinch-tactile" model=".model" prefix="-item-cm-mug2-handlepinch-tactile-1"></item>
+    <item data_index="0" handler="ContactModel+ContactModelDemoDR55" label="cm-soupbox-power-tactile" model=".model" prefix="-item-cm-soupbox-power-tactile-1"></item>
+    <item data_index="0" handler="ContactModel+ContactModelDemoDR55" label="cm-vitamintube-pinch-tactile" model=".model" prefix="-item-cm-vitamintube-pinch-tactile-1"></item>
+    <item data_index="0" handler="ContactModel+ContactModelDemoDR55" label="cm-vitamintube-pinch-tactile2" model=".model" prefix="-item-cm-vitamintube-pinch-tactile2-1"></item>
     <item handler="Trajectory+ActiveSenseGraspDataTrajectory" label="handle" path_position="0" prefix="-item-handle-1" waypoint=".wp">
       <contact path_interpol="1" path_waypoint="18446744073709551615"></contact>
     </item>
-    <item data_index="0" handler="ContactModel+ActiveSenseGraspDataContactModel" label="handle_g" model=".model" prefix="-item-handle_g-1"></item>
+    <item data_index="0" handler="ContactModel+ContactModelDemoDR55" label="handle_g" model=".model" prefix="-item-handle_g-1"></item>
     <item handler="Trajectory+ActiveSenseGraspDataTrajectory" label="handlelow" path_position="0" prefix="-item-handlelow-1" waypoint=".wp">
       <contact path_interpol="1" path_waypoint="18446744073709551615"></contact>
     </item>
-    <item data_index="0" handler="ContactModel+ActiveSenseGraspDataContactModel" label="handlelow_g" model=".model" prefix="-item-handlelow_g-1"></item>
+    <item data_index="0" handler="ContactModel+ContactModelDemoDR55" label="handlelow_g" model=".model" prefix="-item-handlelow_g-1"></item>
     <item handler="Trajectory+ActiveSenseGraspDataTrajectory" label="handlepinch" path_position="0" prefix="-item-handlepinch-1" waypoint=".wp">
       <contact path_interpol="1" path_waypoint="18446744073709551615"></contact>
     </item>
-    <item data_index="0" handler="ContactModel+ActiveSenseGraspDataContactModel" label="handlepinch_g" model=".model" prefix="-item-handlepinch_g-1"></item>
-    <item data_index="0" handler="ContactModel+ActiveSenseGraspDataContactModel" label="model" model=".model" prefix="-item-model-1"></item>
+    <item data_index="0" handler="ContactModel+ContactModelDemoDR55" label="handlepinch_g" model=".model" prefix="-item-handlepinch_g-1"></item>
+    <item data_index="0" handler="ContactModel+ContactModelDemoDR55" label="model" model=".model" prefix="-item-model-1"></item>
     <item cloud=".pcd" handler="PointsCurv+ActiveSenseGraspDataPointsCurv" label="mug2-curv" prefix="-item-mug2-curv-1" time_stamp="0">
       <config c1="2.24194" c10="0" c11="0" c12="0" c13="0" c14="0" c15="0" c16="0" c17="0" c18="0" c19="0" c2="-0.780079" c20="0" c21="0" c22="0" c23="0" c24="0" c25="0" c26="0" c27="0" c28="0" c29="0" c3="2.56492" c30="0" c31="0" c32="0" c33="0" c34="0" c35="0" c36="0" c37="0" c38="0" c39="0" c4="-1.99427" c40="0" c41="0" c42="0" c43="0" c44="0" c45="0" c46="0" c47="0" c48="0" c49="0" c5="0.489679" c50="0" c51="0" c52="0" c53="0" c54="0" c55="0" c56="0" c57="0" c58="0" c59="0" c6="-1.03599" c60="0" c61="0" c7="-1.15281" c8="0" c9="0" dim="61" m11="-0.17835" m12="0.0904603" m13="0.9798" m21="0.0120463" m22="0.995891" m23="-0.0897531" m31="-0.983893" m32="-0.00420455" m33="-0.178707" v1="0.494947" v2="-0.375628" v3="0.34541"></config>
       <model rand_ang="100">
@@ -309,25 +309,25 @@
     <item handler="Trajectory+ActiveSenseGraspDataTrajectory" label="pinch" path_position="0" prefix="-item-pinch-1" waypoint=".wp">
       <contact path_interpol="1" path_waypoint="18446744073709551615"></contact>
     </item>
-    <item data_index="0" handler="ContactModel+ActiveSenseGraspDataContactModel" label="pinch_g" model=".model" prefix="-item-pinch_g-1"></item>
-    <item data_index="0" handler="ContactModel+ActiveSenseGraspDataContactModel" label="pinch_g2" model=".model" prefix="-item-pinch_g2-1"></item>
+    <item data_index="0" handler="ContactModel+ContactModelDemoDR55" label="pinch_g" model=".model" prefix="-item-pinch_g-1"></item>
+    <item data_index="0" handler="ContactModel+ContactModelDemoDR55" label="pinch_g2" model=".model" prefix="-item-pinch_g2-1"></item>
     <item handler="Trajectory+ActiveSenseGraspDataTrajectory" label="pinchsmall" path_position="0" prefix="-item-pinchsmall-1" waypoint=".wp">
       <contact path_interpol="1" path_waypoint="18446744073709551615"></contact>
     </item>
-    <item data_index="0" handler="ContactModel+ActiveSenseGraspDataContactModel" label="pinchsmall_g" model=".model" prefix="-item-pinchsmall_g-1"></item>
-    <item data_index="0" handler="ContactModel+ActiveSenseGraspDataContactModel" label="pinchsmall_g2" model=".model" prefix="-item-pinchsmall_g2-1"></item>
+    <item data_index="0" handler="ContactModel+ContactModelDemoDR55" label="pinchsmall_g" model=".model" prefix="-item-pinchsmall_g-1"></item>
+    <item data_index="0" handler="ContactModel+ContactModelDemoDR55" label="pinchsmall_g2" model=".model" prefix="-item-pinchsmall_g2-1"></item>
     <item handler="Trajectory+ActiveSenseGraspDataTrajectory" label="pinchsupp" path_position="0" prefix="-item-pinchsupp-1" waypoint=".wp">
       <contact path_interpol="1" path_waypoint="18446744073709551615"></contact>
     </item>
-    <item data_index="0" handler="ContactModel+ActiveSenseGraspDataContactModel" label="pinchsupp_g" model=".model" prefix="-item-pinchsupp_g-1"></item>
+    <item data_index="0" handler="ContactModel+ContactModelDemoDR55" label="pinchsupp_g" model=".model" prefix="-item-pinchsupp_g-1"></item>
     <item handler="Trajectory+ActiveSenseGraspDataTrajectory" label="powertube" path_position="0" prefix="-item-powertube-1" waypoint=".wp">
       <contact path_interpol="1" path_waypoint="18446744073709551615"></contact>
     </item>
-    <item data_index="0" handler="ContactModel+ActiveSenseGraspDataContactModel" label="powertube_g" model=".model" prefix="-item-powertube_g-1"></item>
+    <item data_index="0" handler="ContactModel+ContactModelDemoDR55" label="powertube_g" model=".model" prefix="-item-powertube_g-1"></item>
     <item handler="Trajectory+ActiveSenseGraspDataTrajectory" label="rim" path_position="0" prefix="-item-rim-1" waypoint=".wp">
       <contact path_interpol="1" path_waypoint="18446744073709551615"></contact>
     </item>
-    <item data_index="0" handler="ContactModel+ActiveSenseGraspDataContactModel" label="rim_g" model=".model" prefix="-item-rim_g-1"></item>
+    <item data_index="0" handler="ContactModel+ContactModelDemoDR55" label="rim_g" model=".model" prefix="-item-rim_g-1"></item>
     <item handler="Trajectory+ActiveSenseGraspDataTrajectory" label="soupbox-power-tactile" path_position="1" prefix="-item-soupbox-power-tactile-1" waypoint=".wp">
       <contact path_interpol="1" path_waypoint="18446744073709551615"></contact>
     </item>
